@@ -1,0 +1,17 @@
+
+i"m working now on train_f_general
+
+training from pretrained cvusa:
+        train_f_pretrained, check point pretrained_model_CVUSA,
+        at row 226 change to throw the "module"
+        row 228 229 change checkpoint dimension to our dimensions
+trian regular or from model that was pretrained by us allready: train_f
+
+attention : train_f _pretrained_attention_visualization,TransGeo_attention_visualization.py,Deit_attentio_visualization.py
+
+Best_5 visualization
+choose  quarter- devide to quarters by visualize best 5, quarter match on quarters
+attetion from github: transformer explain FLC.py
+devide to quarter : erase.py
+choose  quarter- Best_5_slide visualization quarter match
+prepare examples- tests
